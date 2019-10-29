@@ -16,6 +16,9 @@ class Choice(models.Model):
     def __str__(self):
         return '%s %s %s' % (self.question, self.choice_text, self.votes)
 
+# myclub_project\events\models.py
+
+
 '''class Topping(models.Model):
     name = models.CharField(max_length=12)
 
